@@ -232,3 +232,63 @@ font-size: 30px;
 .heading h2{
     font-size: 20px;
 }
+.box{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    border-radius: 6px;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.box .box-text{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background: hsl(227,14%,20%,0.8);
+    backdrop-filter: blur(4px);
+    border-radius: 3px;
+}
+.box .box-text h2{
+    font-size: 1rem;
+}
+.box .box-text h3{
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+}
+.rating-download{
+    display: flex;
+    justify-content: space-between;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+.rating .bx{
+    color: yellow;
+    font-size: 10px;  
+}
+.rating span{
+    color: yellow;
+    font-size: 20px; 
+}
+.box-button .bx{
+    padding: 5px;
+    background: aliceblue;
+    border-radius: 50%;
+    color: var(--main-color);
+    font-size: 25px;
+    float: right;
+}
+.box-button .bx:hover{
+    background: var(--dark-color);
+}
