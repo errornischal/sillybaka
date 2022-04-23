@@ -415,7 +415,7 @@ transition: all 0.5s cubic-bezier(0, 1.03, .58, 1);
 }
 .home{
     margin-top: 4rem;
-    min-height: 100px;
+    min-height: 350px;
 }
 .abcd h4{
     position:absolute;
