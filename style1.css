@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(/img/ufo.jpg);
+	background-size: cover;
+	background-color: #1a1e2a;
+	background-repeat: no-repeat;
+}
+.head h1{
+	border-bottom: 2px solid white;
+	padding: 5px;
+}
+.head h2{
+	font-size: 25px;
+	font-weight: 100;
+}
+.head{
+	color: aliceblue;
+	border-radius: 10px;
+	width: autopx;
+	padding: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: linear-gradient(45deg, #141720, #232949);
+}
+head .list{
+	color: white;
+	text-transform: uppercase;
+	margin: 5px;
+}
+.head input[type="button"]{
+	text-align: center;
+	border-radius: 5px;
+	height: 30px;
+	width: 40%;
+	background: transparent;
+	color: aliceblue;
+	font-weight: 600;
+    font-size: 15px;
+    transition: 0.30s;
+    cursor: pointer;
+	outline: none;
+}
+.head input[type="button"]:hover{
+	background: linear-gradient(45deg, #232949,#141720);
+	transition: 0.30s;
+}
+.head input[type="button"]:focus{
+	width: 45%;
+	transition: 0.30s;
+}

@@ -19,6 +19,10 @@ var swiper = new Swiper(".trend-cont", {
         disableOnInteraction: false,
     },
     breakpoints: {
+      480: {
+        slidesPerView: 1,
+        spaceBetween: 5
+      },
       640: {
         slidesPerView: 2,
         spaceBetween: 10
