@@ -404,7 +404,7 @@ transition: all 0.5s cubic-bezier(0, 1.03, .58, 1);
 }
 @media (max-width:1080px){
     .container{
-        margin: 0 auto;
+        margin: 1 auto;
         width: 90%;
     }
 .nav{
